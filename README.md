@@ -18,7 +18,6 @@ Our approach combines:
 ├── GAN_GUI.py            # Defines UNet Generator & PatchGAN Discriminator
 ├── train.py              # Training loop for GAN (with L1, MSE, GAN loss)
 ├── testing.py            # Testing pipeline + evaluation metrics (PSNR, SSIM)
-├── ORION_SPACE_SYSTEMS_SIH_1732.pptx   # SIH presentation (reference)
 └── README.md             # Documentation
 ```
 
