@@ -87,7 +87,7 @@ PSNR (Noisy vs Enhanced): 28.42 dB
 
 ## 📊 Workflow
 
-![Flowchart](https://raw.githubusercontent.com/1sanemax/Lunar-PSR-Enhancement/main/path/to/flowchart.png)
+![Flowchart](https://raw.githubusercontent.com/1sanemax/Lunar-PSR-Enhancement/main/path/to/flowchart.jpg)
 
 
 
