@@ -87,25 +87,8 @@ PSNR (Noisy vs Enhanced): 28.42 dB
 
 ## 📊 Workflow
 
-```
-Dataset
-   ↓
-Photon Counting Simulation
-   ↓
-Preprocessing
-   ↓
-UNet Generator + PatchGAN Discriminator
-   ↓
-Training Loop
-   ↓
-Save Generator
-   ↓
-Testing on Noisy Images
-   ↓
-Enhanced Outputs
-   ↓
-Evaluation: PSNR & SSIM
-```
+![Flowchart](https://drive.google.com/file/d/1bCRgirOQeCkhwjYG5sIR_AmsGH5MgKYe/view?usp=sharing)
+
 
 ---
 
