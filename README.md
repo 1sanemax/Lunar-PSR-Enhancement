@@ -128,9 +128,19 @@ Here are some sample results from the project:
 ### Side-by-Side Example
 ![Comparison](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_comparison_of_Noisy_vs_Enhanced.png)
 
-
 ### Metrics of Enhanced Image
 ![Metrics](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_metrics_of_Enhanced.png)
+
+---
+
+## 👩‍🚀 Authors  
+
+This project is inspired by **Problem Statement ID 1732 (Enhancement of Permanently Shadowed Regions of Lunar Craters)** from **Smart India Hackathon 2024**.  
+However, the current implementation is **independent work** and not part of the SIH submission.  
+
+**Team:**  
+- Surya Narayanan S  
+- Shankar Balaji V
 
 ---
 ## 🤝 Contributing
@@ -148,3 +158,5 @@ This project is open-source and available under the Apache License 2.0.
 ## 📧 Contact
 
 For questions or collaboration opportunities, please open an issue in the repository.
+
+
