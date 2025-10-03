@@ -8,8 +8,8 @@ import os
 
 if __name__ == '__main__':
     # Paths
-    clean_dir = r"D:\ARGON\TRAINING_DATA\clean"
-    noisy_dir = r"D:\ARGON\TRAINING_DATA\noisy"
+    clean_dir = r"D:\ARGON\TRAINING_DATA\clean" #replace with your system path
+    noisy_dir = r"D:\ARGON\TRAINING_DATA\noisy" #replace with your system path
 
     # Dataset + Loader with Photon Counting enabled
     train_dataset = LunarDataset(
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     lambda_MSE = 10  # MSE loss weight
     
     print(f"Training for {epochs} epochs with photon counting noise model...")
-    print("Note: Training on CPU will be slow. Consider using Google Colab for GPU access.")
+    print("Note: Training on CPU will be slow.")
     for epoch in range(epochs):
         G.train()
         D.train()
@@ -135,4 +135,5 @@ if __name__ == '__main__':
     # Save final model
     torch.save(G.state_dict(), "generator_final.pth")
     torch.save(D.state_dict(), "discriminator_final.pth")
+
     print("Training complete! Models saved.")
