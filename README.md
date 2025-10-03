@@ -5,7 +5,7 @@
 This project enhances noisy lunar images captured from **Permanently Shadowed Regions (PSRs)** of the Moon. Since these regions receive almost no sunlight, images suffer from **low visibility and high noise**.
 
 Our approach combines:
-- **Photon Counting Simulation** → adds realistic low-light Poisson noise
+- **Photon Counting Simulation** → adds realistic low-light Poisson noise 
 - **GAN-based Denoising** → U-Net Generator + PatchGAN Discriminator for detail-preserving enhancement
 - **Evaluation Metrics** → PSNR & SSIM to measure quality improvements
 
