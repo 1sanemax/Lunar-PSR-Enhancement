@@ -119,14 +119,16 @@ Evaluation: PSNR & SSIM
 
 ---
 
-## 📚 References
+## 📚 References  
 
-- Oxford University: *AI-driven lunar shadow imaging* -
-  https://www.researchgate.net/publication/373270947_Rolling_bearing_fault_diagnosis_method_based_on_2D_grayscale_images_and_Wasserstein_Generative_Adversarial_Nets_under_unbalanced_sample_condition
-- Photon Counting Models in Astronomy -
-  https://www.ox.ac.uk/news/features/peering-moons-permanently-shadowed-regions-ai#:~:text=The%20Moon's%20polar%20regions%20are,resolution%20for%20the%20first%20time
-- GAN-based Denoising research papers -
-  https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_43.pdf
+- A. K. Dagar, *Analysis of the Permanently Shadowed Region of Cabeus Crater*, Planetary and Space Science, 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019103523003391)  
+
+- Oxford University, *Peering into the Moon's Permanently Shadowed Regions with AI*. [Link](https://www.ox.ac.uk/news/features/peering-moons-permanently-shadowed-regions-ai#:~:text=The%20Moon's%20polar%20regions%20are,resolution%20for%20the%20first%20time)  
+
+- ResearchGate, *Rolling bearing fault diagnosis method based on 2D grayscale images and Wasserstein Generative Adversarial Nets under unbalanced sample condition*. [Link](https://www.researchgate.net/publication/373270947_Rolling_bearing_fault_diagnosis_method_based_on_2D_grayscale_images_and_Wasserstein_Generative_Adversarial_Nets_under_unbalanced_sample_condition)  
+
+- ML4PhysicalSciences, *Wasserstein GANs for Physical Science Imaging (NeurIPS ML4PS 2020)*. [Link](https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_43.pdf)  
+
 
 
 ---
@@ -139,7 +141,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is open-source and available under the Apache 2.0 License.
+This project is open-source and available under the Apache License 2.0.
 
 ---
 
