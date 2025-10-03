@@ -155,8 +155,13 @@ This project is open-source and available under the Apache License 2.0.
 
 ---
 
-## 📧 Contact
+## 📧 Contact  
 
-For questions or collaboration opportunities, please open an issue in the repository.
+For questions, feedback, or collaboration opportunities, please open an issue in the repository.  
+
+Or reach out directly at:  
+- 📩 Email: suryanarayanan@ieee.org  
+- 🔗 LinkedIn: [SuryaNarayanan](https://www.linkedin.com/in/suryanarayanan3329/)  
+
 
 
