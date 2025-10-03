@@ -129,6 +129,8 @@ Here are some sample results from the project:
 ![Comparison](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_comparison_of_Noisy_vs_Enhanced.png)
 
 
+### Metrics of Enhanced Image
+![Metrics](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_metrics_of_Enhanced.png)
 
 ---
 ## 🤝 Contributing
