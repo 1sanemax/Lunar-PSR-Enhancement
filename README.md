@@ -115,7 +115,16 @@ PSNR (Noisy vs Enhanced): 28.42 dB
 
 
 ---
+## 🖼️ Results
 
+Here are some sample results from the project:
+
+### Side-by-Side Example
+![Comparison](./results/comparison.png)
+
+### Metrics of Enhanced Image
+![Metrics](./results/comparison.png)
+---
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
