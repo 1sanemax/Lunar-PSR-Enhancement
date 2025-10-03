@@ -119,11 +119,17 @@ PSNR (Noisy vs Enhanced): 28.42 dB
 
 Here are some sample results from the project:
 
+### Noisy Input vs Enhanced Output
+
+| Noisy Image | Enhanced Image |
+|-------------|----------------|
+| ![Noisy](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Noisy_example.jpg) | ![Enhanced](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Enhanced_of_noisy.jpg) |
+
 ### Side-by-Side Example
-![Comparison](./results/comparison.png)
+![Comparison](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_comparison_of_Noisy_vs_Enhanced.png)
 
 ### Metrics of Enhanced Image
-![Metrics](./results/comparison.png)
+![Metrics](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_metrics_of_Enhanced.png)
 ---
 ## 🤝 Contributing
 
