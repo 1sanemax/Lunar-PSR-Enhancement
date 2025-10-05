@@ -7,6 +7,7 @@ from GAN_GUI import UNetGenerator
 import os
 import cv2
 from skimage.metrics import structural_similarity as ssim
+from model_loader import load_model_state
 
 # Calculate quality metrics
 def calculate_psnr(img1, img2):
@@ -37,10 +38,12 @@ def compute_ssim_pairs(enhanced_dir, noisy_dir, limit=200):
     
     return results
 
-
 # Load model
 G = UNetGenerator(features=32).to(device)
-G.load_state_dict(torch.load("generator_final.pth", map_location=device))
+if load_model_state(G, "generator_final.pth", device):
+    print("✅ Generator weights loaded successfully.")
+else:
+    raise RuntimeError("❌ Failed to load generator weights — check path/format or architecture.")
 G.eval()
 
 # Transform - MUST match training resolution
@@ -123,3 +126,4 @@ for e, n, score in ssim_results[:]:
     if "img188" in e:
 
         print(f"{e} vs {n} → SSIM: {score:.4f}")
+
