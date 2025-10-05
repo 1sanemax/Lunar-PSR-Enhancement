@@ -8,8 +8,8 @@ import os
 
 if __name__ == '__main__':
     # Paths
-    clean_dir = r"D:\ARGON\TRAINING_DATA\clean"
-    noisy_dir = r"D:\ARGON\TRAINING_DATA\noisy"
+    clean_dir = r"D:\ARGON\TRAINING_DATA\clean" #replace with lunar image path
+    noisy_dir = r"D:\ARGON\TRAINING_DATA\noisy" #replace with lunar image path
 
     # Dataset + Loader with Photon Counting enabled
     train_dataset = LunarDataset(
@@ -135,4 +135,5 @@ if __name__ == '__main__':
     # Save final model
     torch.save(G.state_dict(), "generator_final.pth")
     torch.save(D.state_dict(), "discriminator_final.pth")
+
     print("Training complete! Models saved.")
