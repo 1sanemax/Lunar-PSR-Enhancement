@@ -37,9 +37,9 @@ pip install torch torchvision pillow opencv-python scikit-image matplotlib numpy
 
 Organize your dataset like this:
 
-TRAINING_DATA/
-├── clean/   # Ground truth clean lunar images  
-└── noisy/   # Corresponding noisy images
+TRAINING_DATA/  
+├─ clean/   # Ground truth clean lunar images  
+└─ noisy/   # Corresponding noisy images
 
 Note: Filenames in both folders must match (e.g., img1.jpg in both).
 ---
