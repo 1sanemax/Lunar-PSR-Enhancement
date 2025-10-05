@@ -14,13 +14,12 @@ Our approach combines:
 
 ## 📂 Project Structure
 
-├─ dataset_loader.py # Loads dataset, applies photon counting, preprocessing
-├─ GAN_GUI.py # Defines UNet Generator & PatchGAN Discriminator
-├─ train.py # Training loop for GAN (with L1, MSE, GAN loss)
-├─ testing.py # Testing + PSNR/SSIM evaluation pipeline
-├─ model_loader.py # Robust model loading (handles CPU/GPU mismatch & missing keys)
-└─ README.md # Documentation
-
+├─dataset_loader.py # Loads dataset, applies photon counting, preprocessing
+├─GAN_GUI.py # Defines UNet Generator & PatchGAN Discriminator
+├─train.py # Training loop for GAN (with L1, MSE, GAN loss)
+├─testing.py # Testing + PSNR/SSIM evaluation pipeline
+├─model_loader.py # Robust model loading (handles CPU/GPU mismatch & missing keys)
+└─README.md # Documentation
 
 ---
 
