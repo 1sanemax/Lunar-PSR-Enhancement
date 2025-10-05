@@ -28,7 +28,7 @@ Our approach combines:
 
 ### 1. Install Requirements
 
-```bash
+```
 pip install torch torchvision pillow opencv-python scikit-image matplotlib numpy
 ```
 ### 2. Dataset Structure
@@ -100,6 +100,13 @@ Here are some sample results from the project:
 ### Metrics of Enhanced Image 
 ![Metrics](https://github.com/1sanemax/Lunar-PSR-Enhancement/blob/main/Example_metrics_of_Enhanced.png) 
 --- 
+## 🧱 Build as Executable (Optional)
+### To create a standalone .exe for offline use:
+```pip install pyinstaller```
+```pyinstaller --onefile testing.py```
+Your executable will appear in the dist/ folder (e.g., dist/testing.exe).
+You can run it directly to enhance lunar images without needing Python installed.
+---
 ## 👩‍🚀 Authors 
 This project is inspired by **Problem Statement ID 1732 (Enhancement of Permanently Shadowed Regions of Lunar Craters)** from **Smart India Hackathon 2024**. 
 However, the current implementation is **independent work** and not part of the SIH submission. 
