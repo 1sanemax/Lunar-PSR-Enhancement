@@ -51,7 +51,7 @@ transform = transforms.Compose([
 
 # Load noisy image
 #for i in range(0, 200):  # Change range for multiple images
-img_path = rf"D:/ARGON/TRAINING_DATA/noisy/img188.jpg" 
+img_path = rf"D:/ARGON/TRAINING_DATA/noisy/img188.jpg" #replace with lunar image path
 img = Image.open(img_path).convert("L")
     #print(f"Original image size: {img.size}")
 
@@ -92,7 +92,7 @@ plt.show()
 
 # Save enhanced image at full resolution
 enhanced_pil = Image.fromarray((encd * 255).astype(np.uint8))
-output_dir = r"D:/ARGON/OUTPUT"
+output_dir = r"D:/ARGON/OUTPUT" #replace with lunar image path where you want it stored
 
     # Make sure the folder exists
 os.makedirs(output_dir, exist_ok=True)
@@ -115,10 +115,11 @@ print(f"  Std: {encd.std():.4f}")
 print(f"  Min: {encd.min():.4f}")
 print(f"  Max: {encd.max():.4f}")
 print(f"PSNR (Noisy vs Enhanced): {calculate_psnr(noisy_np, encd):.4f} dB")
-enhanced_dir = rf"D:/ARGON/OUTPUT/"
-noisy_dir = rf"D:/ARGON/TRAINING_DATA/noisy/"
+enhanced_dir = rf"D:/ARGON/OUTPUT/" #replace with lunar image path where it is stored
+noisy_dir = rf"D:/ARGON/TRAINING_DATA/noisy/" #replace with lunar image path
 ssim_results = compute_ssim_pairs(enhanced_dir, noisy_dir)
 #display 188th image score
 for e, n, score in ssim_results[:]:
     if "img188" in e:
+
         print(f"{e} vs {n} → SSIM: {score:.4f}")
