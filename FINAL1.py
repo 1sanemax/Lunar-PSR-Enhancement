@@ -75,7 +75,6 @@ def enhance_image(img_path):
 def insert_image():
     global img_tk, selected_file_label, selected_input_file
     # Specify the folder to restrict selection to
-    #folder_path = r"D:\ARGON\TRAINING_DATA\noisy"
     file_path = filedialog.askopenfilename(
         parent=root,
         title="Select an Image",
@@ -241,5 +240,6 @@ canvas.create_window(150, 495, anchor=tk.CENTER, window=selected_file_label)
 
 enhance_button = tk.Button(root, text="Enhance Image ⚙", bg="#ccc", fg="black", padx=40, pady=7, command=open_new_window, state=tk.DISABLED, borderwidth=0)
 canvas.create_window(322, 455.5, anchor=tk.CENTER, window=enhance_button)
+
 
 root.mainloop()
