@@ -14,11 +14,11 @@ Our approach combines:
 
 ## 📂 Project Structure
 
-├─dataset_loader.py # Loads dataset, applies photon counting, preprocessing
-├─GAN_GUI.py # Defines UNet Generator & PatchGAN Discriminator
-├─train.py # Training loop for GAN (with L1, MSE, GAN loss)
-├─testing.py # Testing + PSNR/SSIM evaluation pipeline
-├─model_loader.py # Robust model loading (handles CPU/GPU mismatch & missing keys)
+├─dataset_loader.py # Loads dataset, applies photon counting, preprocessing  
+├─GAN_GUI.py # Defines UNet Generator & PatchGAN Discriminator  
+├─train.py # Training loop for GAN (with L1, MSE, GAN loss)  
+├─testing.py # Testing + PSNR/SSIM evaluation pipeline  
+├─model_loader.py # Robust model loading (handles CPU/GPU mismatch & missing keys)  
 └─README.md # Documentation
 
 ---
@@ -38,7 +38,7 @@ pip install torch torchvision pillow opencv-python scikit-image matplotlib numpy
 Organize your dataset like this:
 
 TRAINING_DATA/
-├── clean/   # Ground truth clean lunar images
+├── clean/   # Ground truth clean lunar images  
 └── noisy/   # Corresponding noisy images
 
 Note: Filenames in both folders must match (e.g., img1.jpg in both).
